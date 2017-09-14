@@ -1,4 +1,4 @@
-package junit_test;
+package JUnitTest;
 
 import static org.junit.Assert.*;
 
@@ -9,13 +9,13 @@ public class TestHello {
 
 	
 	@Test
-	public void testMyMethod() {
+	public static void testMyMethod() {
 		String returnString = Hello.hello();
 		//assertEquals("equal", "Hello", returnString);
 	}
 	
 	@Test
-	public void testMyMethod1() {
+	public static void testMyMethod1() {
 		String returnString = Hello.hello();
 		//assertEquals("Hello", returnString);
 	}
