@@ -15,13 +15,13 @@
  * 
  * 
  * 
-1 Declare the class as final so it can’t be extended.
-2 Make all fields private so that direct access is not allowed.
-3 Don’t provide setter methods for variables
-4 Make all mutable fields final so that it’s value can be assigned only once.
-5 Initialize all the fields via a constructor performing deep copy.
-6 Perform cloning of objects in the getter methods to return a copy 
-rather than returning the actual object reference.
+1  Declare the class as final so it can’t be extended.
+2  Make all fields private so that direct access is not allowed.
+3  Don’t provide setter methods for variables
+4  Make all mutable fields final so that it’s value can be assigned only once.
+5  Initialize all the fields via a constructor performing deep copy.
+6  Perform cloning of objects in the getter methods to return a copy 
+   rather than returning the actual object reference.
 
 
  * To understand points 4 and 5, let’s run the sample Final class that works
@@ -53,7 +53,7 @@ public final class FinalClassExample {
 	public HashMap<String, String> getTestMap() {
 		// return testMap;
 		return (HashMap<String, String>) testMap.clone();
-		
+
 	}
 
 	/**
@@ -65,7 +65,9 @@ public final class FinalClassExample {
 	 */
 
 	public FinalClassExample(int i, String n, HashMap<String, String> hm) {
+		
 		System.out.println("Performing Deep Copy for Object initialization");
+		
 		this.id = i;
 		this.name = n;
 		HashMap<String, String> tempMap = new HashMap<String, String>();
@@ -85,12 +87,14 @@ public final class FinalClassExample {
 	 * @param n
 	 * @param hm
 	 */
-	/**
-	 * public FinalClassExample(int i, String n, HashMap<String,String> hm){
-	 * System.out.println("Performing Shallow Copy for Object initialization");
-	 * this.id=i; this.name=n; this.testMap=hm; }
-	 */
 
+	/*
+	 * public FinalClassExample(int i, String n, HashMap<String, String> hm) {
+	 *       System.out.println("Performing Shallow Copy for Object initialization");
+	 *       this.id = i; 
+	 *       this.name = n; 
+	 *       this.testMap = hm; }
+	 */
 	/**
 	 * To test the consequences of Shallow Copy and how to avoid it with Deep
 	 * Copy for creating immutable classes
@@ -101,10 +105,9 @@ public final class FinalClassExample {
 		HashMap<String, String> h1 = new HashMap<String, String>();
 		h1.put("1", "first");
 		h1.put("2", "second");
-
-		String s = "original";
-
+		
 		int i = 10;
+		String s = "original";
 
 		FinalClassExample ce = new FinalClassExample(i, s, h1);
 
