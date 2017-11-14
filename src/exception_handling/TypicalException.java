@@ -25,6 +25,7 @@ public class TypicalException {
 	}
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		String userDir = System.getProperty("user.dir");
 		File f = new File("text");
 		printFile(f);

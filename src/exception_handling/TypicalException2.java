@@ -2,7 +2,6 @@ package exception_handling;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.stream.Collectors;
@@ -19,6 +18,7 @@ public class TypicalException2 {
 		}
 	}
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		String userDir = System.getProperty("user.dir");
 		File f = new File("text");
 		printFile(f);
