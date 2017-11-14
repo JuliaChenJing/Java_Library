@@ -1,7 +1,5 @@
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
+package javaFX.convert;
+
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -10,7 +8,7 @@ import javax.swing.JTextField;
 
 public class MetricConversion extends JFrame {
 
-	// Defining JLabel 静态文本定义
+	// Defining JLabel é�™æ€�æ–‡æœ¬å®šä¹‰
 	private JLabel lbMile;
 	private JLabel lbPound;
 	private JLabel lbGallon;
@@ -21,7 +19,7 @@ public class MetricConversion extends JFrame {
 	private JLabel lbLiter;
 	private JLabel lbCentigrade;
 
-	// Defining JTextField 单行文本输入框定义
+	// Defining JTextField å�•è¡Œæ–‡æœ¬è¾“å…¥æ¡†å®šä¹‰
 	private JTextField tfMile;
 	private JTextField tfPound;
 	private JTextField tfGallon;
@@ -33,32 +31,32 @@ public class MetricConversion extends JFrame {
 	private JTextField tfCentigrade;
 
 
-	// Defining JButton 按键定义
+	// Defining JButton æŒ‰é”®å®šä¹‰
 	private JButton btnConvert;
 
 
-	// 定义窗口为默认宽高
+	// å®šä¹‰çª—å�£ä¸ºé»˜è®¤å®½é«˜
 	public static final int DEFAULT_WIDTH = 600;
 	public static final int DEFAULT_HEIGHT = 250;
 
-	// 构造函数 Constructor
+	// æž„é€ å‡½æ•° Constructor
 	public MetricConversion() {
 
-		// 调用高一级的类，装入标题
+		// è°ƒç”¨é«˜ä¸€çº§çš„ç±»ï¼Œè£…å…¥æ ‡é¢˜
 		super("Metric Conversion Assistant");
 
 		// Define your layout
 		// setLayout(new FlowLayout());
-		// 定义窗口大小
+		// å®šä¹‰çª—å�£å¤§å°�
 		setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
 
-		// change the background color of the frame改变窗口背景颜色
+		// change the background color of the frameæ”¹å�˜çª—å�£èƒŒæ™¯é¢œè‰²
 		// getContentPane().setBackground(Color.lightGray);
 		getContentPane().setLayout(null);
 
-		// Initialization 初始化
+		// Initialization åˆ�å§‹åŒ–
 
-		// 初始化静态文本
+		// åˆ�å§‹åŒ–é�™æ€�æ–‡æœ¬
 		lbMile = new JLabel("Mile :");
 		// public void setBounds(int x,int y,int width,int height)
 		lbMile.setBounds(30, 0, 250, 50);
@@ -78,7 +76,7 @@ public class MetricConversion extends JFrame {
 		lbCentigrade = new JLabel("Centigrade :");
 		lbCentigrade.setBounds(330, 90, 250, 50);
 
-		// 初始化待输入文本框
+		// åˆ�å§‹åŒ–å¾…è¾“å…¥æ–‡æœ¬æ¡†
 		tfMile = new JTextField(6);
 		tfMile.setBounds(100, 0, 150,30);
 		tfPound = new JTextField(6);
@@ -98,12 +96,12 @@ public class MetricConversion extends JFrame {
 		tfCentigrade.setBounds(400, 90, 150,30);
 	
 
-		// 初始化按键
+		// åˆ�å§‹åŒ–æŒ‰é”®
 		btnConvert = new JButton("Convert ");
 		btnConvert.setBounds(200, 150, 200, 30);
 
 		
-		// add to the frame 将以上组件加到窗口上
+		// add to the frame å°†ä»¥ä¸Šç»„ä»¶åŠ åˆ°çª—å�£ä¸Š
 		add(lbKilometer);
 		add(lbKilogram);
 		add(lbLiter);
@@ -128,7 +126,7 @@ public class MetricConversion extends JFrame {
 		
 		add(btnConvert);
 		
-		// Event handling for Button 事件处理程序，调用下面的内部类
+		// Event handling for Button äº‹ä»¶å¤„ç�†ç¨‹åº�ï¼Œè°ƒç”¨ä¸‹é�¢çš„å†…éƒ¨ç±»
 		//ButtonHandler btnHandler = new ButtonHandler();
 		
 		btnConvert.addActionListener

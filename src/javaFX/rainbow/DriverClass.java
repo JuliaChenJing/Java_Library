@@ -1,4 +1,4 @@
-
+package javaFX.rainbow;
 public class DriverClass {
 
 	public static void main(String args[])

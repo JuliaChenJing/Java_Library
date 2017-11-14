@@ -1,3 +1,4 @@
+package javaFX.myTable;
 public class DriverClass {
 	 public static  void main(String[] args){
 	        MyTable t = new MyTable();

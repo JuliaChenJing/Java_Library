@@ -1,4 +1,4 @@
-package package1;
+package javaFX.rainbow;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 public class Rainbow extends JFrame {
-	// Defining JButton 按键定义
+	// Defining JButton æŒ‰é”®å®šä¹‰
 	private JButton btnRed;
 	private JButton btnOrange;
 	private JButton btnYellow;
@@ -20,30 +20,30 @@ public class Rainbow extends JFrame {
 	private JButton btnBlue;
 	private JButton btnPurple;
 
-	// 定义窗口为默认宽高
+	// å®šä¹‰çª—å�£ä¸ºé»˜è®¤å®½é«˜
 	public static final int DEFAULT_lENGTH = 100;
 	
 
-	// 构造函数 Constructor
+	// æž„é€ å‡½æ•° Constructor
 	public Rainbow() {
 
-		// 调用高一级的类，装入标题
+		// è°ƒç”¨é«˜ä¸€çº§çš„ç±»ï¼Œè£…å…¥æ ‡é¢˜
 		super("Rainbow Color Frame");
 
 		// Define your layout
 		// setLayout(new FlowLayout());
-		// 定义窗口大小
+		// å®šä¹‰çª—å�£å¤§å°�
 		setSize(DEFAULT_lENGTH*7, DEFAULT_lENGTH+38);
 
-		// change the background color of the frame改变窗口背景颜色
+		// change the background color of the frameæ”¹å�˜çª—å�£èƒŒæ™¯é¢œè‰²
 		// getContentPane().setBackground(Color.lightGray);
 		getContentPane().setLayout(null);
 
-		// Initialization 初始化
+		// Initialization åˆ�å§‹åŒ–
 
 		
 
-		// 初始化按键
+		// åˆ�å§‹åŒ–æŒ‰é”®
 		btnRed = new JButton("");
 		btnRed.setBounds(0, 0, DEFAULT_lENGTH, DEFAULT_lENGTH);
 		btnRed.setBackground(Color.RED);
@@ -73,7 +73,7 @@ public class Rainbow extends JFrame {
 		btnPurple.setBackground(Color.magenta);
 		
 
-		// add to the frame 将以上组件加到窗口上
+		// add to the frame å°†ä»¥ä¸Šç»„ä»¶åŠ åˆ°çª—å�£ä¸Š
 		
 		add(btnRed);
 		add(btnOrange);
@@ -84,7 +84,7 @@ public class Rainbow extends JFrame {
 		add(btnPurple);
 		
 
-		// Event handling for Button 事件处理程序，调用下面的内部类
+		// Event handling for Button äº‹ä»¶å¤„ç�†ç¨‹åº�ï¼Œè°ƒç”¨ä¸‹é�¢çš„å†…éƒ¨ç±»
 		ButtonHandler btnHandler = new ButtonHandler();
 		btnRed.addActionListener(btnHandler);
 		btnOrange.addActionListener(btnHandler);
@@ -98,7 +98,7 @@ public class Rainbow extends JFrame {
 	// define event handling for button handler,inner class
 	private class ButtonHandler implements ActionListener {
 		public void actionPerformed(ActionEvent event) {
-			// 获得输入的值
+			// èŽ·å¾—è¾“å…¥çš„å€¼
 			// String s1 = tfInput.getText();
 
 			if (event.getSource() == btnRed) {
