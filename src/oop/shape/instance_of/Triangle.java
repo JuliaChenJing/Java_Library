@@ -1,4 +1,4 @@
-package oop.shapeInterface;
+package oop.shape.instance_of;
 final class Triangle implements ClosedCurve {
 	/* we require height <= base */
 	final double base;

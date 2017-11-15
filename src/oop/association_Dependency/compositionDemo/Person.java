@@ -1,4 +1,4 @@
-package oop.associationAndDependency.compositionDemo;
+package oop.association_Dependency.compositionDemo;
 
 
 public class Person {

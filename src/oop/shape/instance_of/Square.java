@@ -1,4 +1,4 @@
-package oop.shapeInterface;
+package oop.shape.instance_of;
 final class Square implements ClosedCurve {
 	final double side;
 

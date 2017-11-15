@@ -1,5 +1,5 @@
-package oop.shapeInterface;
-public class DriverClass {
+package oop.shape.instance_of;
+public class App {
 
 	public static void main(String[] args) {
 

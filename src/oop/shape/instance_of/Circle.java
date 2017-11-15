@@ -1,4 +1,4 @@
-package oop.shapeInterface;
+package oop.shape.instance_of;
 final class Circle implements ClosedCurve {
 	final double radius;
 
