@@ -1,4 +1,4 @@
-package MultiThread.QueueMultiThread.ThreadSafe;
+package multiThread.QueueMultiThread.ThreadSafe;
 
 //Show the methods are not threadsafe.
 //Then modify so that they are threadsafe.

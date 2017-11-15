@@ -1,4 +1,4 @@
-package MultiThread.tuturial18;
+package multiThread.tuturial18;
 
 import java.text.DateFormat;
 import java.util.*;

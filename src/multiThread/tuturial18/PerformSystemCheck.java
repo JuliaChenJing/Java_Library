@@ -1,4 +1,4 @@
-package MultiThread.tuturial18;
+package multiThread.tuturial18;
 
 //You could also lock down a method and then unlock it
 //when you are finished with it. This library does that

@@ -1,4 +1,4 @@
-package MultiThread.threadsingleton;
+package multiThread.threadsingleton;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

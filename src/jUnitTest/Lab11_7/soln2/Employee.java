@@ -1,4 +1,4 @@
-package JUnitTest.Lab11_7.soln2;
+package jUnitTest.Lab11_7.soln2;
 
 public class Employee {
 	String firstName, lastName;

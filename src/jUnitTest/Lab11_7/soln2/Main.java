@@ -1,4 +1,4 @@
-package JUnitTest.Lab11_7.soln2;
+package jUnitTest.Lab11_7.soln2;
 
 import java.util.*;
 import java.util.stream.Collectors;

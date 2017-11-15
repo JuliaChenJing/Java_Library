@@ -1,4 +1,4 @@
-package MultiThread.threadsingleton;
+package multiThread.threadsingleton;
 
 public class Singleton2 {
 	private static Singleton2 instance;

@@ -1,4 +1,4 @@
-package MultiThread.threadsingleton;
+package multiThread.threadsingleton;
 
 //multiple instances could be created
 public class MultiThreadedTest {	

@@ -1,4 +1,4 @@
-package MultiThread.tuturial18;
+package multiThread.tuturial18;
 //https://www.youtube.com/watch?v=G2Xd5avyk_0
 
 /*In the last tutorial I coordinated threads using

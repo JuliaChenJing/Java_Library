@@ -1,4 +1,4 @@
-package MultiThread.tutorial17;
+package multiThread.tutorial17;
 
 //https://www.youtube.com/watch?v=F-CkaU8aQZI
 public class Application17 {

@@ -1,4 +1,4 @@
-package MultiThread.QueueMultiThread.ThreadSafe;
+package multiThread.QueueMultiThread.ThreadSafe;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

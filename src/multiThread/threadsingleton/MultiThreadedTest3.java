@@ -1,4 +1,4 @@
-package MultiThread.threadsingleton;
+package multiThread.threadsingleton;
 
 public class MultiThreadedTest3 {	
 	public static void main(String[] args) {	

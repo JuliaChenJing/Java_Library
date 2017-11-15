@@ -1,4 +1,4 @@
-package MultiThread.tutorial17;
+package multiThread.tutorial17;
 //You can use the Runnable interface instead of
 
 //wasting your 1 class extension.

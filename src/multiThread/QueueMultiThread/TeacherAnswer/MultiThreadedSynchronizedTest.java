@@ -1,4 +1,4 @@
-package MultiThread.QueueMultiThread.TeacherAnswer;
+package multiThread.QueueMultiThread.TeacherAnswer;
 
 public class MultiThreadedSynchronizedTest {	
 	

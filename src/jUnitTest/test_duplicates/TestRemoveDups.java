@@ -1,4 +1,4 @@
-package JUnitTest.test_duplicates;
+package jUnitTest.test_duplicates;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package MultiThread.tutorial17;
+package multiThread.tutorial17;
 
 //By using threads you can execute multiple blocks
 //of code at the same time. This program will output 

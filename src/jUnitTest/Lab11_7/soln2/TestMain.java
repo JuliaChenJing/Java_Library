@@ -1,8 +1,6 @@
-package JUnitTest.Lab11_7.soln2;
+package jUnitTest.Lab11_7.soln2;
 
 import static org.junit.Assert.*;
-
-import java.util.*;
 
 import org.junit.Test;
 

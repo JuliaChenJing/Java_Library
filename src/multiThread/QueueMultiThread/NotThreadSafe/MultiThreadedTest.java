@@ -1,4 +1,4 @@
-package MultiThread.QueueMultiThread.NotThreadSafe;
+package multiThread.QueueMultiThread.NotThreadSafe;
 
 
 public class MultiThreadedTest {	

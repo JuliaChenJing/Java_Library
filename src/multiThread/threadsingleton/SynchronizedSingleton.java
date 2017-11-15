@@ -1,4 +1,4 @@
-package MultiThread.threadsingleton;
+package multiThread.threadsingleton;
 
 public class SynchronizedSingleton {
 	private static SynchronizedSingleton instance;
