@@ -1,10 +1,10 @@
 eclipse.preferences.version=1
-encoding//src/Equals.java=UTF-8
-encoding//src/TravelTimeCalculator.java=UTF-8
-encoding//src/bit_manipulation/PrintBinary.java=UTF-8
-encoding//src/compileOrder/ClassA.java=UTF-8
 encoding//src/exception_handling/GuessNumber.java=UTF-8
 encoding//src/exception_handling/IndexThrows.java=UTF-8
+encoding//src/grammarAndCompiler/TravelTimeCalculator.java=UTF-8
+encoding//src/grammarAndCompiler/bit_manipulation/PrintBinary.java=UTF-8
+encoding//src/grammarAndCompiler/compileOrder/ClassA.java=UTF-8
 encoding//src/javaFX/convert/MetricConversion.java=UTF-8
 encoding//src/javaFX/rainbow/Rainbow.java=UTF-8
 encoding//src/javaFX/stringUtility/StringUtility.java=UTF-8
+encoding//src/oop/compare/Equals.java=UTF-8
