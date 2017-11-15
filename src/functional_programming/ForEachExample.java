@@ -6,7 +6,6 @@ import java.util.function.Consumer;
 
 
 public class ForEachExample {
-	@SuppressWarnings("unused")
 	
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("Hello there", "Goodbye", "Back soon", 

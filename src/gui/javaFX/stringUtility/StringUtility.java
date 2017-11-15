@@ -1,5 +1,4 @@
-package javaFX.stringUtility;
-import java.awt.Color;
+package gui.javaFX.stringUtility;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -11,11 +10,11 @@ import javax.swing.JTextField;
 
 public class StringUtility extends JFrame {
 
-	// Defining JLabel 静态文本定义
+	// Defining JLabel �?��?文本定义
 	private JLabel lbInput;
 	private JLabel lbOutput;
 
-	// Defining JTextField 单行文本输入框定义
+	// Defining JTextField �?�行文本输入框定义
 	private JTextField tfInput;
 	private JTextField tfOutput;
 
@@ -24,7 +23,7 @@ public class StringUtility extends JFrame {
 	private JButton btnReverse;
 	private JButton btnRemoveDuplicates;
 
-	// 定义窗口为默认宽高
+	// 定义窗�?�为默认宽高
 	public static final int DEFAULT_WIDTH = 600;
 	public static final int DEFAULT_HEIGHT = 300;
 
@@ -36,29 +35,29 @@ public class StringUtility extends JFrame {
 
 		// Define your layout
 		// setLayout(new FlowLayout());
-		// 定义窗口大小
+		// 定义窗�?�大�?
 		setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
 
-		// change the background color of the frame改变窗口背景颜色
+		// change the background color of the frame改�?�窗�?�背景颜色
 		// getContentPane().setBackground(Color.lightGray);
 		getContentPane().setLayout(null);
 
-		// Initialization 初始化
+		// Initialization �?始化
 
-		// 初始化静态文本
+		// �?始化�?��?文本
 		lbInput = new JLabel("Input");
 		// public void setBounds(int x,int y,int width,int height)
 		lbInput.setBounds(300, 0, 250, 50);
 		lbOutput = new JLabel("Output");
 		lbOutput.setBounds(300, 80, 250, 50);
 
-		// 初始化待输入文本框
+		// �?始化待输入文本框
 		tfInput = new JTextField(6);
 		tfInput.setBounds(300, 40, 250, 50);
 		tfOutput = new JTextField(6);
 		tfOutput.setBounds(300, 120, 250, 50);
 
-		// 初始化按键
+		// �?始化按键
 		btnCountLetters = new JButton("Count Letters ");
 		btnCountLetters.setBounds(50, 30, 200, 25);
 
@@ -68,7 +67,7 @@ public class StringUtility extends JFrame {
 		btnRemoveDuplicates = new JButton("Remove Duplicates");
 		btnRemoveDuplicates.setBounds(50, 150, 200, 25);
 
-		// add to the frame 将以上组件加到窗口上
+		// add to the frame 将以上组件加到窗�?�上
 		add(lbInput);
 		add(lbOutput);
 		add(tfInput);
@@ -77,7 +76,7 @@ public class StringUtility extends JFrame {
 		add(btnReverse);
 		add(btnRemoveDuplicates);
 
-		// Event handling for Button 事件处理程序，调用下面的内部类
+		// Event handling for Button 事件处�?�程�?，调用下�?�的内部类
 		ButtonHandler btnHandler = new ButtonHandler();
 		btnCountLetters.addActionListener(btnHandler);
 		btnReverse.addActionListener(btnHandler);

@@ -1,17 +1,16 @@
-package javaFX.rainbow;
+package gui.swing.rainbow;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
+
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
+
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
 
 public class Rainbow extends JFrame {
-	// Defining JButton æŒ‰é”®å®šä¹‰
+	// Defining JButton 
 	private JButton btnRed;
 	private JButton btnOrange;
 	private JButton btnYellow;
@@ -20,22 +19,22 @@ public class Rainbow extends JFrame {
 	private JButton btnBlue;
 	private JButton btnPurple;
 
-	// å®šä¹‰çª—å�£ä¸ºé»˜è®¤å®½é«˜
+
 	public static final int DEFAULT_lENGTH = 100;
 	
 
-	// æž„é€ å‡½æ•° Constructor
+	//  Constructor
 	public Rainbow() {
 
-		// è°ƒç”¨é«˜ä¸€çº§çš„ç±»ï¼Œè£…å…¥æ ‡é¢˜
+
 		super("Rainbow Color Frame");
 
 		// Define your layout
 		// setLayout(new FlowLayout());
-		// å®šä¹‰çª—å�£å¤§å°�
+
 		setSize(DEFAULT_lENGTH*7, DEFAULT_lENGTH+38);
 
-		// change the background color of the frameæ”¹å�˜çª—å�£èƒŒæ™¯é¢œè‰²
+		// change the background color of the frameæ
 		// getContentPane().setBackground(Color.lightGray);
 		getContentPane().setLayout(null);
 
@@ -43,7 +42,6 @@ public class Rainbow extends JFrame {
 
 		
 
-		// åˆ�å§‹åŒ–æŒ‰é”®
 		btnRed = new JButton("");
 		btnRed.setBounds(0, 0, DEFAULT_lENGTH, DEFAULT_lENGTH);
 		btnRed.setBackground(Color.RED);
@@ -73,7 +71,7 @@ public class Rainbow extends JFrame {
 		btnPurple.setBackground(Color.magenta);
 		
 
-		// add to the frame å°†ä»¥ä¸Šç»„ä»¶åŠ åˆ°çª—å�£ä¸Š
+		// add to the frame 
 		
 		add(btnRed);
 		add(btnOrange);
@@ -84,7 +82,7 @@ public class Rainbow extends JFrame {
 		add(btnPurple);
 		
 
-		// Event handling for Button äº‹ä»¶å¤„ç�†ç¨‹åº�ï¼Œè°ƒç”¨ä¸‹é�¢çš„å†…éƒ¨ç±»
+		// Event handling for Button»
 		ButtonHandler btnHandler = new ButtonHandler();
 		btnRed.addActionListener(btnHandler);
 		btnOrange.addActionListener(btnHandler);
@@ -98,7 +96,7 @@ public class Rainbow extends JFrame {
 	// define event handling for button handler,inner class
 	private class ButtonHandler implements ActionListener {
 		public void actionPerformed(ActionEvent event) {
-			// èŽ·å¾—è¾“å…¥çš„å€¼
+
 			// String s1 = tfInput.getText();
 
 			if (event.getSource() == btnRed) {

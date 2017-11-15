@@ -1,4 +1,4 @@
-package javaFX;
+package gui.swing;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,6 +6,10 @@ import java.awt.event.*;
 
 public class HelloGoodbye extends JFrame 
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	JPanel mainPanel, topPanel, centerPanel;
 	JTextField leftText, rightText;
 

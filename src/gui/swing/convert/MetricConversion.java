@@ -1,4 +1,4 @@
-package javaFX.convert;
+package gui.swing.convert;
 
 
 import javax.swing.JButton;
@@ -31,7 +31,7 @@ public class MetricConversion extends JFrame {
 	private JTextField tfCentigrade;
 
 
-	// Defining JButton æŒ‰é”®å®šä¹‰
+	// Defining JButton æŒ‰é�?®å®šä¹‰
 	private JButton btnConvert;
 
 
@@ -42,7 +42,7 @@ public class MetricConversion extends JFrame {
 	// æž„é€ å‡½æ•° Constructor
 	public MetricConversion() {
 
-		// è°ƒç”¨é«˜ä¸€çº§çš„ç±»ï¼Œè£…å…¥æ ‡é¢˜
+		// è°ƒç�?¨é«˜ä¸€çº§çš„ç±»ï¼Œè£…å…¥æ ‡é¢˜
 		super("Metric Conversion Assistant");
 
 		// Define your layout
@@ -50,7 +50,7 @@ public class MetricConversion extends JFrame {
 		// å®šä¹‰çª—å�£å¤§å°�
 		setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
 
-		// change the background color of the frameæ”¹å�˜çª—å�£èƒŒæ™¯é¢œè‰²
+		// change the background color of the frameæ�?¹å�˜çª—å�£èƒŒæ™¯é¢œè‰²
 		// getContentPane().setBackground(Color.lightGray);
 		getContentPane().setLayout(null);
 
@@ -96,7 +96,7 @@ public class MetricConversion extends JFrame {
 		tfCentigrade.setBounds(400, 90, 150,30);
 	
 
-		// åˆ�å§‹åŒ–æŒ‰é”®
+		// åˆ�å§‹åŒ–æŒ‰é�?®
 		btnConvert = new JButton("Convert ");
 		btnConvert.setBounds(200, 150, 200, 30);
 
@@ -126,7 +126,7 @@ public class MetricConversion extends JFrame {
 		
 		add(btnConvert);
 		
-		// Event handling for Button äº‹ä»¶å¤„ç�†ç¨‹åº�ï¼Œè°ƒç”¨ä¸‹é�¢çš„å†…éƒ¨ç±»
+		// Event handling for Button äº‹ä»¶å¤„ç�†ç¨‹åº�ï¼Œè°ƒç�?¨ä¸‹é�¢çš„å†…éƒ¨ç±»
 		//ButtonHandler btnHandler = new ButtonHandler();
 		
 		btnConvert.addActionListener

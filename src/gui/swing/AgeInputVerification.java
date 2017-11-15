@@ -1,4 +1,4 @@
-package javaFX;
+package gui.swing;
 
 import javax.swing.JOptionPane;
 

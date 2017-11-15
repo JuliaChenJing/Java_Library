@@ -1,10 +1,13 @@
-package javaFX.rainbow;
+package gui.javaFX.stringUtility;
+
+//main method to perform Arithmetic operations
 public class DriverClass {
 
 	public static void main(String args[])
 	{
-		Rainbow frame = new Rainbow();
+		StringUtility frame = new StringUtility();
 		frame.setVisible(true);
 		//frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
+
