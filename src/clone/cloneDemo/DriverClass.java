@@ -1,4 +1,4 @@
-package clone;
+package clone.cloneDemo;
 
 public class DriverClass {
 	

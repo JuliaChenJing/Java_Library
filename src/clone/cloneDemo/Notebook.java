@@ -1,4 +1,4 @@
-package clone;
+package clone.cloneDemo;
 class Notebook extends Computer implements Cloneable {
 	 private double height ;
 	 private double width ;
