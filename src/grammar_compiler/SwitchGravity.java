@@ -17,6 +17,7 @@ public class SwitchGravity {
 		String planet;
 		double relativeGravity = 0;
 
+		@SuppressWarnings("resource")
 		Scanner keyboard = new Scanner(System.in);
 
 		while (true) {
