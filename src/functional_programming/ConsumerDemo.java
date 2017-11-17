@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 
-public class ForEachExample {
+public class ConsumerDemo {
 	
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("Hello there", "Goodbye", "Back soon", 
@@ -16,14 +16,18 @@ public class ForEachExample {
 	}
 	
 
-	public static Consumer<String> consumer = new Consumer<String>() {
-
-		@Override
-		public void accept(String t) {
-			
-		System.out.println(t.toUpperCase());
-		}
-	};
+	//choice one
+//	public static Consumer<String> consumer = new Consumer<String>() {
+//
+//		@Override
+//		public void accept(String t) {
+//			
+//		System.out.println(t.toUpperCase());
+//		
+//		}
+//	};
+	//choice two
+	static Consumer<String> consumer = (s)->System.out.println(s.toUpperCase());
 }
 /*HELLO THERE
 GOODBYE
