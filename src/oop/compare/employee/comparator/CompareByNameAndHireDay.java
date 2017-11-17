@@ -1,8 +1,8 @@
-package oop.compare.employee;
+package oop.compare.employee.comparator;
 
 import java.util.*;
 
-public class NameComparator2 implements Comparator<Employee>{
+public class CompareByNameAndHireDay implements Comparator<Employee>{
 
 	@Override
 	public int compare(Employee e1, Employee e2) {
@@ -21,7 +21,7 @@ public class NameComparator2 implements Comparator<Employee>{
 	public static void main(String[] args) {
 		Employee e1 = new Employee("Joe", 1999, 10, 2);
 		Employee e2 = new Employee("Joe", 2001, 9, 4);
-		NameComparator2 comp = new NameComparator2();
+		CompareByNameAndHireDay comp = new CompareByNameAndHireDay();
 		System.out.println(e1.equals(e2));
 		System.out.println(comp.compare(e1,e2));
 	}

@@ -1,4 +1,4 @@
-package grammarAndCompiler.resizeArray;
+package grammar_compiler.resizeArray;
 class Person {
 	private String lastName;
 	private String firstName;

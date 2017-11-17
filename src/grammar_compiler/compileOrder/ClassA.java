@@ -1,4 +1,4 @@
-package grammarAndCompiler.compileOrder;
+package grammar_compiler.compileOrder;
 
 public class ClassA {
 	static int superInt = superIntMethod();

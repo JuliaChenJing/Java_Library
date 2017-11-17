@@ -1,4 +1,4 @@
-package grammarAndCompiler.bit_manipulation;
+package grammar_compiler.bit_manipulation;
 
 /*
  *  Given a (decimal - e.g. 3.72) number that is passed in as a string, 

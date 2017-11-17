@@ -1,4 +1,4 @@
-package grammarAndCompiler.bit_manipulation;
+package grammar_compiler.bit_manipulation;
 
 /*
  * You are given two 32-bit numbers, N and M, and two bit positions, i and j. Write a

@@ -1,4 +1,4 @@
-package grammarAndCompiler.bit_manipulation;
+package grammar_compiler.bit_manipulation;
 
 public class Num1Bits {
 	/*

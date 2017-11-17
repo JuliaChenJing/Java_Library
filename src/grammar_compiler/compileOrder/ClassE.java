@@ -1,4 +1,4 @@
-package grammarAndCompiler.compileOrder;
+package grammar_compiler.compileOrder;
 public class ClassE{
 	static int superInt=10;
 	static{

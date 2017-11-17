@@ -1,4 +1,4 @@
-package grammarAndCompiler.resizeArray;
+package grammar_compiler.resizeArray;
 public class PersonArrayOpe 
 {
 	

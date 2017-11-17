@@ -1,4 +1,4 @@
-package oop.compare.employee.comparatorInLambda;
+package oop.compare.employee.sort;
 public class Employee {
 	String name;
 	int salary;

@@ -1,4 +1,4 @@
-package oop.compare.employee;
+package oop.compare.employee.comparator;
 
 import java.util.Date;
 import java.util.GregorianCalendar;

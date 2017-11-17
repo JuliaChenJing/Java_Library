@@ -1,9 +1,9 @@
-package oop.compare.employee.comparatorInLambda;
+package oop.compare.employee.sort;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class EmployeeInfo {
+public class SortEmployee {
 	static enum SortMethod {BYNAME, BYSALARY};
 	private boolean ignoreCase = true;
 	public void setIgnoreCase(boolean b) {
@@ -31,11 +31,11 @@ public class EmployeeInfo {
 		emps.add(new Employee("Joe", 100000));
 		emps.add(new Employee("Tim", 50000));
 		emps.add(new Employee("Andy", 60000));
-		EmployeeInfo ei = new EmployeeInfo();
-		ei.sort(emps, EmployeeInfo.SortMethod.BYNAME);
+		SortEmployee ei = new SortEmployee();
+		ei.sort(emps, SortEmployee.SortMethod.BYNAME);
 		System.out.println(emps);
 		//same instance
-		ei.sort(emps, EmployeeInfo.SortMethod.BYSALARY);
+		ei.sort(emps, SortEmployee.SortMethod.BYSALARY);
 		System.out.println(emps);
 	}
 }

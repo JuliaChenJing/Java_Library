@@ -1,4 +1,4 @@
-package grammarAndCompiler.bit_manipulation;
+package grammar_compiler.bit_manipulation;
 
 /*
  * Write a function to determine the number of bits required to convert integer A to
