@@ -1,4 +1,4 @@
-package oop.interface_demo.good;
+package oop.interface_demo.shape.good;
 
 import java.util.ArrayList;
 import java.util.List;

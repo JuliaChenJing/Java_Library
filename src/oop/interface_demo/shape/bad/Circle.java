@@ -1,4 +1,4 @@
-package oop.interface_demo.bad;
+package oop.interface_demo.shape.bad;
 
 public class Circle {
 	private double radius;

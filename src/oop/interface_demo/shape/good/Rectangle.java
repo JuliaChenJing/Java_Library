@@ -1,4 +1,4 @@
-package oop.interface_demo.good;
+package oop.interface_demo.shape.good;
 
 public class Rectangle implements ClosedCurve {
 	private double length, width;

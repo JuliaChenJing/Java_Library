@@ -1,4 +1,4 @@
-package oop.interface_demo.good;
+package oop.interface_demo.shape.good;
 
 public class Circle implements ClosedCurve {
 	private double radius;
