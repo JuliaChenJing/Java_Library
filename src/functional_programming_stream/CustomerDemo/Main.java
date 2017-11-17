@@ -1,6 +1,5 @@
 package functional_programming_stream.CustomerDemo;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
@@ -24,7 +23,6 @@ public class Main {
 		//get all names of customers whose city of residence begins 
 		//with "Ma", in sorted order
 
-		Double a;
 		Predicate<Customer> p=x->x.getCity().startsWith("Ma");
 		Function <Customer,String> f=x->x.getName();
 		List <String> names=list.stream().filter(p).map(f).sorted().collect(Collectors.toList());

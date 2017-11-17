@@ -51,6 +51,7 @@ public final class FinalClassExample {
 	/**
 	 * Accessor function for mutable objects
 	 */
+	@SuppressWarnings("unchecked")
 	public HashMap<String, String> getTestMap() {
 		// return testMap;
 		return (HashMap<String, String>) testMap.clone();

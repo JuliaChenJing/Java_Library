@@ -29,7 +29,7 @@ public class FinallyDemo {
 		
 		System.out.println("---------------------------------");
 		
-		int x = 10, y = 0, z;
+		int x = 10, y = 0,z;
 		
 		try {
 			System.out.println("Before dividing x by y.");

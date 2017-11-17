@@ -1,6 +1,5 @@
 package oop.inheritance.polymophism;
 
-import java.time.LocalDate;
 
 class Employee {
 	// constructor

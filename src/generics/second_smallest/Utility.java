@@ -11,7 +11,6 @@ import java.util.List;
 public class Utility {
 
 	public static <T> T secondSmallest(List<? extends T> list, Comparator<? super T> comp) {
-		T max = list.get(0);
 		list.sort(comp);
 		return list.get(1);
 	}
@@ -54,6 +53,11 @@ public class Utility {
 		
 		System.out.println("Manager test:");
 		List<Manager> managerList = new ArrayList<Manager>() {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
 			{
 				add(new Manager("anne", 10000, 2));
 				add(new Manager("michelle", 10000, 5));
@@ -65,6 +69,11 @@ public class Utility {
 		
 		System.out.println("Employee test:");
 		List<EmployeeComparable> employeeList = new ArrayList<EmployeeComparable>() {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
 			{
 				add(new EmployeeComparable("anne", 10000));
 				add(new EmployeeComparable("michelle", 10000));
