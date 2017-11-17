@@ -1,4 +1,4 @@
-package grammarAndCompiler;
+package grammar_compiler;
 import java.util.Locale;
 
 public class LocaleDemo {

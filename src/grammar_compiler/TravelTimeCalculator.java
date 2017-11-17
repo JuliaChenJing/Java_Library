@@ -1,4 +1,4 @@
-package grammarAndCompiler;
+package grammar_compiler;
 
 import java.util.*; // for GregorianCalendar
 import java.text.*; // for DateFormat Class
@@ -92,5 +92,5 @@ public class TravelTimeCalculator {
 
 /*
  * Your flight is from NewYork to Seatle the start time of travel is : 16-1-1
- * ‰∏äÂçà1:01 the end time of travel is : 16-1-1 ‰∏äÂçà3:28
+ * ‰∏äÂ?à1:01 the end time of travel is : 16-1-1 ‰∏äÂ?à3:28
  */

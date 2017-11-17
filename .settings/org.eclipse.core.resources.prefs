@@ -1,9 +1,9 @@
 eclipse.preferences.version=1
 encoding//src/exception_handling/GuessNumber.java=UTF-8
 encoding//src/exception_handling/IndexThrows.java=UTF-8
-encoding//src/grammarAndCompiler/TravelTimeCalculator.java=UTF-8
 encoding//src/grammarAndCompiler/bit_manipulation/PrintBinary.java=UTF-8
 encoding//src/grammarAndCompiler/compileOrder/ClassA.java=UTF-8
+encoding//src/grammar_compiler/TravelTimeCalculator.java=UTF-8
 encoding//src/gui/javaFX/HelloWorldButton.java=UTF-8
 encoding//src/gui/javaFX/stringUtility/StringUtility.java=UTF-8
 encoding//src/gui/swing/convert/MetricConversion.java=UTF-8
