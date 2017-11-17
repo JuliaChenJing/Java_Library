@@ -1,4 +1,4 @@
-package exception_handling;
+package exception_handling.user_defined_exception;
 
 import java.util.Scanner;
 
@@ -21,21 +21,21 @@ public class GuessNumber {
 					break;
 				}
 				if (guess < 0 || guess >= 100) {
-					System.out.println("输入数字越界，请重新输入：");
+					System.out.println("输入数字越界，请�?新输入：");
 				} else if (guess > number) {
-					System.out.println("输入数字过大，请重新输入：");
+					System.out.println("输入数字过大，请�?新输入：");
 				} else if (guess < number) {
-					System.out.println("输入数字偏小，请重新输入：");
+					System.out.println("输入数字�??�?，请�?新输入：");
 				}
 			}
 			if (flag && count == 1) {
-				System.out.println("你太有才了");
+				System.out.println("你太有�?了");
 			} else if (flag && count < 6) {
-				System.out.println("真聪明！");
+				System.out.println("真�?�明�?");
 			} else if (flag && count >= 6) {
-				System.out.println("还不错！");
+				System.out.println("还�?错�?");
 			} else {
-				System.out.println("真差劲！");
+				System.out.println("真差劲�?");
 			}
 		}
 		catch(Exception e){

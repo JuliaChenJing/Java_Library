@@ -1,8 +1,8 @@
-package exception_handling;
+package exception_handling.run_time_unchecked_exception_try_catch;
 
 import javax.swing.JOptionPane;
 
-public class IntegerInputVerification {
+public class NumberFormatExceptionGUI {
 	public int getAge(String prompt) {
 
 		String inputStr;
@@ -30,7 +30,7 @@ public class IntegerInputVerification {
 	}
 
 	public static void main(String[] args) {
-		IntegerInputVerification ag = new IntegerInputVerification();
+		NumberFormatExceptionGUI ag = new NumberFormatExceptionGUI();
 		int mark = ag.getAge("Please type in a positive integer");
 		System.out.println(mark);
 	}

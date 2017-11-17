@@ -1,10 +1,10 @@
-package exception_handling;
+package exception_handling.run_time_unchecked_exception_try_catch;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class IOExceptionDemo {
+public class NumberFormatExceptionDemo {
 	// Unchecked Exception handled using try-catch, checked exception handled
 	// using throws
 	public static void main(String[] args) throws IOException {// Checked

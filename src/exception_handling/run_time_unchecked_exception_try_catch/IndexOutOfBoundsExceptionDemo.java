@@ -1,6 +1,6 @@
-package exception_handling;
+package exception_handling.run_time_unchecked_exception_try_catch;
 
-public class IndexThrows {
+public class IndexOutOfBoundsExceptionDemo {
 	private static final double[] price = { 15.99, 27.88, 34.56, 45.89 };
 
 	public static void displayPrice(int item) throws IndexOutOfBoundsException
@@ -16,7 +16,7 @@ public class IndexThrows {
 			displayPrice(3);
 			displayPrice(5);
 		} catch (IndexOutOfBoundsException e) {
-			
+			System.out.println("--------caught exception:"+e.getMessage());
 			e.printStackTrace();
 		}
 	}

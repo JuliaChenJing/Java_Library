@@ -1,6 +1,6 @@
-package exception_handling;
+package exception_handling.run_time_unchecked_exception_try_catch;
 
-public class FinallyDemo {
+public class ArrayIndexOutOfBoundsExceptionDemo {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
-encoding//src/exception_handling/GuessNumber.java=UTF-8
-encoding//src/exception_handling/IndexThrows.java=UTF-8
+encoding//src/exception_handling/run_time_unchecked_exception_try_catch/IndexOutOfBoundsExceptionDemo.java=UTF-8
+encoding//src/exception_handling/user_defined_exception/GuessNumber.java=UTF-8
 encoding//src/grammar_compiler/TravelTimeCalculator.java=UTF-8
 encoding//src/grammar_compiler/bit_manipulation/PrintBinary.java=UTF-8
 encoding//src/grammar_compiler/compileOrder/ClassA.java=UTF-8

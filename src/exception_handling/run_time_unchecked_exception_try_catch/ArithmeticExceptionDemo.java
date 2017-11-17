@@ -1,6 +1,6 @@
-package exception_handling;
+package exception_handling.run_time_unchecked_exception_try_catch;
 
-public class DevideDemo {
+public class ArithmeticExceptionDemo {
 	public static void main(String[] args) {
 		int numer[] = { 4, 8, 16, 32, 64, 128, 256, 512 };
 		int denom[] = { 2, 1, 4, 4, 0, 8 };
