@@ -13,7 +13,7 @@ public class IOExceptionDemo {
 			System.out.println(reader.lines().collect(Collectors.joining(", ")));
 			reader.close();
 		} catch(IOException e) {
-			System.out.println("Error printing file: " + e.getMessage());
+			System.out.println("---Error printing file: " + e.getMessage()+"---");
 			
 		}
 	}
