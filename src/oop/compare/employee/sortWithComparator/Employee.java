@@ -3,7 +3,7 @@ package oop.compare.employee.sortWithComparator;
 
 public class Employee {
 	String name;
-	int salary;
+	 int salary;
 
 	public Employee(String n, int s) {
 		this.name = n;
