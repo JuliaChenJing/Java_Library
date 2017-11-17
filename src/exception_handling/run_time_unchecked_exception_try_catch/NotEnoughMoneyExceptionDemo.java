@@ -1,13 +1,13 @@
 package exception_handling.run_time_unchecked_exception_try_catch;
 
 
-public class NotEnoughMoneyException {
+public class NotEnoughMoneyExceptionDemo {
 
 	String Cus_name;
 	String Acc_No;
 	double Balance;
 
-	public NotEnoughMoneyException(String cus_name, String acc_No, double balance) {
+	public NotEnoughMoneyExceptionDemo(String cus_name, String acc_No, double balance) {
 		super();
 		Cus_name = cus_name;
 		Acc_No = acc_No;
@@ -38,7 +38,7 @@ public class NotEnoughMoneyException {
 	}
 
 	public static void main(String[] args) {
-		NotEnoughMoneyException ca = new NotEnoughMoneyException("Julia", "12345", 120);
+		NotEnoughMoneyExceptionDemo ca = new NotEnoughMoneyExceptionDemo("Julia", "12345", 120);
 		double withdrawMoney = 70;
 		ca.withdraw(withdrawMoney);
 		try {
