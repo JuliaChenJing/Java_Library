@@ -15,5 +15,10 @@ public class SynchronizedSingleton {
 	private static void incrementCounter() {
 		counter++;
 	}
+	@Override
+	public String toString() {
+		return "SynchronizedSingleton [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
 }
 

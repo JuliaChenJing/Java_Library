@@ -7,8 +7,11 @@ public class Queue {
 		Object value;
 		Node next;
 	}
+	//double linedin node
 	private Node head;
 	private Node tail;
+	
+	//the one that comes at last stands at last.
 	public void add(Object newValue) {
 		Node n = new Node();
 		if(head == null) head = n;
@@ -16,6 +19,8 @@ public class Queue {
 		tail = n;
 		tail.value = newValue;
 	}
+	
+	//first in, first out
 	public Object remove() {
 		if(head == null) return null;
 		Node n = head;
@@ -25,7 +30,7 @@ public class Queue {
 	
 	public void display() {
 		Node p = head;
-		System.out.print("Linked Q: ");
+		System.out.print("the queue saved: ");
 		if (p == null)
 			System.out.println("empty");
 		while (p != null) {
