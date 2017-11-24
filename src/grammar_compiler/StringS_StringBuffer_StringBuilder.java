@@ -17,8 +17,9 @@ public class StringS_StringBuffer_StringBuilder {
 	 * 
 	 * 1. Performance: Immutable objects are ideal for representing values of
 	 * abstract data (i.e. value objects) types like numbers, enumerated types,
-	 * etc. If you need a different value, create a different object. In Java,
-	 * Integer, Long, Float, Character, BigInteger and BigDecimal are all
+	 * etc. If you need a different value, create a different object. 
+	 * 
+	 * In Java,Integer, Long, Float, Character, BigInteger and BigDecimal are all
 	 * immutable objects. Optimization strategies like caching of hashcode,
 	 * caching of objects, object pooling, etc can be easily applied to improve
 	 * performance. If Strings were made mutable, string pooling would not be
