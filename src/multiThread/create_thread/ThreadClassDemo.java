@@ -2,6 +2,7 @@ package multiThread.create_thread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+
 class ThreadClassDemo extends Thread {
 
 	AtomicInteger count = new AtomicInteger();

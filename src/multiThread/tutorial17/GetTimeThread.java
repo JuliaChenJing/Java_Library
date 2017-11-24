@@ -13,7 +13,7 @@ import java.text.DateFormat;
 
 //By extending the Thread class you can run your code
 //concurrently with other threads
-public class GetTime20 extends Thread {
+public class GetTimeThread extends Thread {
 
 	// All of the code that the thread executes must be
 	// in the run method, or be in a method called for
@@ -59,7 +59,7 @@ public class GetTime20 extends Thread {
 			// sleep pauses thread execution for 2 seconds below
 
 			try {
-				Thread.sleep(2000);
+				Thread.sleep(2000);//the running interval is 2000 milliseconds
 			} catch (InterruptedException e) {
 			}
 		}

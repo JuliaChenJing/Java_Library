@@ -16,23 +16,23 @@ public class Application17 {
 	 */
 	public static void main(String[] args) {
 
-		// Create a new Thread that executes the code in GetTime20
+		// Create a new Thread that executes the code in getTimeThread20
 
-		Thread getTime = new GetTime20();
+		Thread getTimeThread = new GetTimeThread();
 
 		// Create a new Thread created using the Runnable interface
 		// Execute the code in run after 10 seconds
 
-		Runnable getMail = new GetTheMail(10);
+		Runnable getMail = new GetTheMailRunable(10);//wait 10 seconds to check the mail
 
-		Runnable getMailAgain = new GetTheMail(20);
+		Runnable getMailAgain = new GetTheMailRunable(20);//wait 20 seconds to check the mail
 
 		// Call for the code in the method run to execute
 
-		getTime.start();
+		getTimeThread.start();
 
-		new Thread(getMail).start();
-		new Thread(getMailAgain).start();
+		new Thread(getMail).start();//just run once
+		new Thread(getMailAgain).start();//just run once
 
 	}
 }
