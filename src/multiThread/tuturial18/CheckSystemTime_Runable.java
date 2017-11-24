@@ -3,7 +3,7 @@ package multiThread.tuturial18;
 import java.text.DateFormat;
 import java.util.*;
 
-public class CheckSystemTime implements Runnable{
+public class CheckSystemTime_Runable implements Runnable{
 	
 	public void run(){
 		

@@ -13,7 +13,7 @@ import java.text.DateFormat;
 
 //By extending the Thread class you can run your code
 //concurrently with other threads
-public class GetTimeThread extends Thread {
+public class CheckSystemTime_Thread extends Thread {
 
 	// All of the code that the thread executes must be
 	// in the run method, or be in a method called for

@@ -48,11 +48,11 @@ public class Application18 {
 		// Adds a Thread to the pool. Tells that thread to start executing
 		// after 0 seconds (immediately) and then execute every 2 seconds
 
-		eventPool.scheduleAtFixedRate(new CheckSystemTime(), 0, 2, SECONDS);
+		eventPool.scheduleAtFixedRate(new CheckSystemTime_Runable(), 0, 2, SECONDS);
 
-		eventPool.scheduleAtFixedRate(new PerformSystemCheck("Mail"), 5, 5, SECONDS);
+		eventPool.scheduleAtFixedRate(new PerformSystemCheck_Runable("Mail"), 5, 5, SECONDS);
 
-		eventPool.scheduleAtFixedRate(new PerformSystemCheck("Calendar"), 10, 10, SECONDS);
+		eventPool.scheduleAtFixedRate(new PerformSystemCheck_Runable("Calendar"), 10, 10, SECONDS);
 
 		// Thread.activeCount returns the number of threads running
 

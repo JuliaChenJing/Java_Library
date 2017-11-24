@@ -3,7 +3,7 @@ package multiThread.tutorial17;
 
 //wasting your 1 class extension.
 
-public class GetTheMailRunable implements Runnable {
+public class GetTheMail_Runable implements Runnable {
 
 	// Stores the number of seconds before the code
 	// will be executed
@@ -11,7 +11,7 @@ public class GetTheMailRunable implements Runnable {
 
 	// Constructor that sets the wait time for each
 	// new Thread
-	public GetTheMailRunable(int startTime) {
+	public GetTheMail_Runable(int startTime) {
 		this.startTime = startTime;
 	}
 

@@ -5,7 +5,7 @@ package multiThread.tuturial18;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class PerformSystemCheck implements Runnable{
+public class PerformSystemCheck_Runable implements Runnable{
 	
 	private String checkWhat;
 	
@@ -13,7 +13,7 @@ public class PerformSystemCheck implements Runnable{
 	
 	ReentrantLock lock = new ReentrantLock();
 	
-	public PerformSystemCheck(String checkWhat){
+	public PerformSystemCheck_Runable(String checkWhat){
 		
 		this.checkWhat = checkWhat;
 		

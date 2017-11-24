@@ -18,14 +18,14 @@ public class Application17 {
 
 		// Create a new Thread that executes the code in getTimeThread20
 
-		Thread getTimeThread = new GetTimeThread();
+		Thread getTimeThread = new CheckSystemTime_Thread();
 
 		// Create a new Thread created using the Runnable interface
 		// Execute the code in run after 10 seconds
 
-		Runnable getMail = new GetTheMailRunable(10);//wait 10 seconds to check the mail
+		Runnable getMail = new GetTheMail_Runable(10);//wait 10 seconds to check the mail
 
-		Runnable getMailAgain = new GetTheMailRunable(20);//wait 20 seconds to check the mail
+		Runnable getMailAgain = new GetTheMail_Runable(20);//wait 20 seconds to check the mail
 
 		// Call for the code in the method run to execute
 
