@@ -15,10 +15,6 @@ public class Singleton {
 		return instance;
 	}
 
-	// public static ClassA getInstance1() {
-	// return new ClassA();
-	//
-	// }
 	public static void main(String[] args) {
 		Singleton.getInstance();
 		Singleton.getInstance();
