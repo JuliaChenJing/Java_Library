@@ -1,5 +1,5 @@
 package oop.clone.shallowCopyDemo;
-public class DriverClass
+public class App
 {
 public static void main(String[] args) throws CloneNotSupportedException 
 		{

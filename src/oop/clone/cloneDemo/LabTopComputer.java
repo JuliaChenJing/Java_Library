@@ -1,10 +1,10 @@
 package oop.clone.cloneDemo;
-class Notebook extends Computer implements Cloneable {
+class LabTopComputer extends Computer implements Cloneable {
 	 private double height ;
 	 private double width ;
 	 private double weight ;
 	 
-	 Notebook(double height, double width, double weight, String manufacturer,String processor,int ramSize ,int diskSize,double processorSpeed)
+	 LabTopComputer(double height, double width, double weight, String manufacturer,String processor,int ramSize ,int diskSize,double processorSpeed)
 	 {
 		 super(manufacturer, processor, ramSize , diskSize,processorSpeed);
 		 this.height=height;
@@ -19,7 +19,7 @@ class Notebook extends Computer implements Cloneable {
 	 
 	 @Override
 	public String toString() {
-		return "Notebook [height=" + height + ", width=" + width + ", weight=" + weight + ", manufacturer="
+		return "Laptop Computer [height=" + height + ", width=" + width + ", weight=" + weight + ", manufacturer="
 				+ manufacturer + ", processor=" + processor + ", ramSize=" + ramSize + ", diskSize=" + diskSize
 				+ ", processorSpeed=" + processorSpeed + "]";
 	}
@@ -46,7 +46,7 @@ class Notebook extends Computer implements Cloneable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Notebook other = (Notebook) obj;
+		LabTopComputer other = (LabTopComputer) obj;
 		if (Double.doubleToLongBits(height) != Double.doubleToLongBits(other.height))
 			return false;
 		if (Double.doubleToLongBits(weight) != Double.doubleToLongBits(other.weight))
@@ -59,7 +59,7 @@ class Notebook extends Computer implements Cloneable {
 	
 	public Object clone() throws CloneNotSupportedException {
 
-	    Notebook clone=(Notebook)super.clone();
+	    LabTopComputer clone=(LabTopComputer)super.clone();
 	    
 	    return clone;
 
